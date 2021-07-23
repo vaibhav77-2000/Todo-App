@@ -1,0 +1,281 @@
+body
+{
+    background:url('/images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content-block
+{
+    margin:55px 360px;
+    height:603px;
+    width:808px;
+    background-color:whitesmoke;
+    overflow-y:scroll;
+}
+
+#content-block::-webkit-scrollbar 
+{
+    display: none;
+}
+
+#content-block 
+{
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+h1
+{ 
+   font-size:46px;
+   text-align:center;
+   color:purple;
+   font-family:cursive;
+   margin-top:-5px;
+}
+h1 hr
+{
+    color:gray;
+    margin-top:5px;
+}
+#desc
+{
+     height:90px;
+     margin-top:-32px;
+    
+}
+#desc label
+{
+    font-size:19px;
+    margin-left:28px;
+    top:8px;
+    color:gray;
+    font-family: monospace;
+}
+#desc input 
+{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color:whitesmoke;
+    margin-left:26px;
+    height:60px;
+    width:95%;
+    margin-top:-5px;
+    font-size:15px;
+}
+#desc hr
+{
+    margin-top:10px;
+}
+#que1
+{
+    font-family: monospace;
+    color:gray;
+    text-transform:capitalize;
+}
+#desc input:focus, select:focus
+{
+    outline: none;
+    font-family: monospace;
+    text-transform:capitalize;
+}
+#desc:hover,#desc input:hover
+{
+    background-color: rgb(231, 223, 223);
+}
+#container
+{
+    position:relative;
+    width:100%;
+    height:78px;
+}
+#category
+{
+    display:inline-block;
+    position:absolute;
+    width:50%;
+    height:100%;
+}
+#category label
+{
+    font-size:19px;
+    margin-left:28px;
+    color:gray;
+    font-family: monospace;
+}   
+#category select
+{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    color:gray;
+    margin-left:26px;
+    margin-top:10px;
+    font-size:15px;
+    font-family:monospace;
+    width:85%;
+    background-color:whitesmoke;
+}
+ #category select:focus, select:focus
+  {
+    outline: none;
+    font-family: monospace;
+    text-transform:capitalize;
+  }
+.vl
+ {
+    border-left: 1px solid gray;
+    position:absolute;
+    height:100%;
+    margin-top:-25px;
+    margin-left:32px;
+  }
+  #category:hover,#category select:hover
+{
+    background-color: rgb(231, 223, 223);
+}
+#category hr
+{
+    margin-top:22.5px;
+}
+
+#due-date
+{
+    position:absolute;
+    width:50%;
+    height:100%;
+    margin-left:50%;
+}
+#due-date label
+{
+      color:gray;
+      font-family: monospace;
+      font-size:19px;
+      margin-left:28px;
+}
+#due-date input
+{
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+      margin-left:26px;
+      font-size:15px;
+      color:gray;
+      margin-top:10px;
+      font-family:monospace;
+      width:85%;
+      background-color: whitesmoke;
+}
+#due-date input:focus, select:focus
+{
+      outline: none;
+      font-family: monospace;
+}
+#due-date:hover,#due-date input:hover
+{
+    background-color: rgb(231, 223, 223);
+}
+#due-date hr
+{
+    margin-top:20.5px;
+}
+#btns
+{
+      width:100%;
+      height:80px;
+      margin-top:-16px;
+}
+ button
+{      
+    background-color: black;
+    width:147px;
+    height:50px;
+    color:white;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: monospace;
+    margin-left:210px;
+    margin-top:30px;
+}
+#del
+{
+    margin-left:440px;
+    margin-top:-49px;
+    background-color: red;
+    color:white;
+    border-color:red;
+    font-weight: bolder;
+    font-family: monospace;
+}
+#btns hr
+{
+    margin-top:20px;
+}
+#list
+{
+    margin-top:21px;
+}
+#task_list
+{
+    height:80px;
+    width:106%;
+    margin-left:-40px;
+    border-bottom:1px solid gray;
+}
+#task_list:hover
+{
+    background-color:rgb(177, 179, 79)
+    
+}
+#task_list input
+{
+    height:25px;
+    width:25px;
+    margin-left:15px;
+    margin-top:25px;
+}
+#task_container
+{
+    height:70px;
+    width:600px;
+    margin-left:75px;
+    margin-top:-30px;
+}
+#task_name
+{
+    font-size:25px;
+    color:rgb(32, 151, 48);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:-25px;
+    text-transform:capitalize;
+}
+#task_date
+{
+    font-size:16px;
+    color:rgb(196, 189, 189);
+    font-family: monospace;
+    margin-top:12px;
+}
+#task_category
+{
+    height:30px;
+    width:90px;
+    position:relative;
+    margin-left:85%;
+    margin-top:-38px;
+    color:white;
+    background-color:blueviolet;
+    border:2px solid gray;
+}
+#task_category span
+{
+    margin-top:6px;
+    margin-left:19px;
+    font-family: monospace;
+    position:absolute;
+    font-size:14px;
+}
+
